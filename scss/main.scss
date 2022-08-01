@@ -5,7 +5,7 @@ $black: #171217;
 $white: #F6F4F6;
 $light-gray: #F5F5F5;
 $dark-gray: #D9D9D9;
-$primary: #B6D094;
+$primary: #4EA43D;
 // $secondary: green;
 
 // Fuentes
@@ -25,7 +25,7 @@ $size8: 0.64rem;
 
 // NAVBAR 
 .navbar {
-    background-color: $black;
+    background-color: $white;
 
     &-brand {
         font-size: $size4;
@@ -46,7 +46,7 @@ $size8: 0.64rem;
 .navbar-brand,
 .navbar-nav,
 .nav-link {
-    color: $white !important;
+    color: $black !important;
     transition: all 0.5s ease-in-out;
 
     &:hover,
@@ -74,4 +74,12 @@ $size8: 0.64rem;
 
 .logo__large {
     width: 100px;
+}
+
+.logo-test__large {
+    height: 70px;
+}
+
+.spacer {
+    height: 20vh;
 }
