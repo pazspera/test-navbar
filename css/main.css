@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 .navbar {
-  background-color: #F6F4F6;
+  background-color: #f6f4f6;
 }
 .navbar-brand {
   font-size: 1.563rem;
@@ -28,7 +28,7 @@
 .navbar-nav:focus,
 .nav-link:hover,
 .nav-link:focus {
-  color: #4EA43D !important;
+  color: #4ea43d !important;
   transition: all 0.5s ease-in-out;
 }
 
@@ -56,4 +56,33 @@
 
 .spacer {
   height: 20vh;
+}
+
+.whatsapp__main {
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-whatsapp i {
+  font-size: 3rem;
+}
+
+.whatsapp_icon2 {
+  height: 1rem;
+  font-size: 1rem;
+}
+.whatsapp_icon2:hover {
+  color: red;
+}
+
+.whatsapp__svg {
+  height: 3rem;
+  color: red;
+}
+
+svg.vector2 path:hover {
+  fill: red;
 }/*# sourceMappingURL=main.css.map */

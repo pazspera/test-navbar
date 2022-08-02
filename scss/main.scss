@@ -2,16 +2,16 @@
 
 // Colores
 $black: #171217;
-$white: #F6F4F6;
-$light-gray: #F5F5F5;
-$dark-gray: #D9D9D9;
-$primary: #4EA43D;
+$white: #f6f4f6;
+$light-gray: #f5f5f5;
+$dark-gray: #d9d9d9;
+$primary: #4ea43d;
 // $secondary: green;
 
 // Fuentes
-$font-text: 'Karla', sans-serif;
-$font-title: 'Cardo', serif;
-$font-logo: 'Major Mono Display', monospace;
+$font-text: "Karla", sans-serif;
+$font-title: "Cardo", serif;
+$font-logo: "Major Mono Display", monospace;
 
 // Tamaños
 $size1: 3.052rem;
@@ -23,63 +23,96 @@ $size6: 1rem;
 $size7: 0.8rem;
 $size8: 0.64rem;
 
-// NAVBAR 
+// NAVBAR
 .navbar {
-    background-color: $white;
+  background-color: $white;
 
-    &-brand {
-        font-size: $size4;
-        font-family: $font-logo;
-        padding: 0;
-    }
-    
-    .nav-link {
-        font-size: $size5;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1.3px;
-    }
+  &-brand {
+    font-size: $size4;
+    font-family: $font-logo;
+    padding: 0;
+  }
+
+  .nav-link {
+    font-size: $size5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+  }
 }
 
 // Override color a los nav-links
-.navbar-dark, 
+.navbar-dark,
 .navbar-brand,
 .navbar-nav,
 .nav-link {
-    color: $black !important;
-    transition: all 0.5s ease-in-out;
+  color: $black !important;
+  transition: all 0.5s ease-in-out;
 
-    &:hover,
-    &:focus {
-        color: $primary !important;
-        transition: all 0.5s ease-in-out;
-    }
+  &:hover,
+  &:focus {
+    color: $primary !important;
+    transition: all 0.5s ease-in-out;
+  }
 }
 
 // Override color del navbar-toggler
-.navbar-dark, 
+.navbar-dark,
 .navbar-toggler {
-    color: rgba($white, 0.3);
+  color: rgba($white, 0.3);
 
-    &:hover,
-    &:focus {
-        color: rgba($white, 0.3);
-    }
+  &:hover,
+  &:focus {
+    color: rgba($white, 0.3);
+  }
 }
- 
+
 // Logo
 .logo__small {
-    width: 50px;
+  width: 50px;
 }
 
 .logo__large {
-    width: 100px;
+  width: 100px;
 }
 
 .logo-test__large {
-    height: 70px;
+  height: 70px;
 }
 
 .spacer {
-    height: 20vh;
+  height: 20vh;
+}
+
+// Whatsapp
+.whatsapp__main {
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-whatsapp i {
+  font-size: 3rem;
+}
+
+.whatsapp_icon2 {
+  height: 1rem;
+  font-size: 1rem;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.whatsapp__svg {
+  height: 3rem;
+  color: red;
+}
+
+svg.vector2 path{
+    &:hover{
+        fill: red;
+    }
 }
