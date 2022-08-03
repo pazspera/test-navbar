@@ -127,8 +127,10 @@ svg.vector2 path {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.75rem;
+  padding: 0.65rem;
   border-radius: 50%;
+  max-width: 54px;
+  max-height: 54px;
 }
 
 .whatsapp-icon__container {
@@ -151,5 +153,13 @@ svg.vector2 path {
   &:hover svg path {
     fill: $white;
     transition: all 0.4s ease-in-out;
+  }
+}
+
+@media(max-width: 576px) {
+  .whatsapp-icon__bg {
+    max-width: 42px;
+    max-height: 42px;
+    padding: 0.45rem;
   }
 }
