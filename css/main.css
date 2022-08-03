@@ -85,4 +85,36 @@
 
 svg.vector2 path:hover {
   fill: red;
+}
+
+.whatsapp-main2 {
+  background-color: orange;
+}
+
+.whatsapp-icon__bg {
+  background-color: #f6f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 50%;
+}
+
+.whatsapp-icon__container {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.whatsapp-icon__container .whatsapp-icon__bg {
+  transition: all 0.4s ease-in-out;
+}
+.whatsapp-icon__container svg path {
+  transition: all 0.4s ease-in-out;
+}
+.whatsapp-icon__container:hover .whatsapp-icon__bg {
+  background-color: #b1d34a;
+  transition: all 0.4s ease-in-out;
+}
+.whatsapp-icon__container:hover svg path {
+  fill: #f6f4f6;
+  transition: all 0.4s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
